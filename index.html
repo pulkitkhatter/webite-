@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        line-height: 1.6;
+      }
+
+      /* Navbar */
+      nav {
+        background: #333;
+        color: white;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+
+      nav ul li {
+        margin-left: 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        color: #00bcd4;
+      }
+
+      /* Hero Section */
+      .hero {
+        height: 80vh;
+        background: linear-gradient(to right, #00bcd4, #2196f3);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 3rem;
+      }
+
+      .hero p {
+        margin: 10px 0;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        background: white;
+        color: #333;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      .btn:hover {
+        background: #ddd;
+      }
+
+      /* Section */
+      .section {
+        padding: 40px;
+        text-align: center;
+      }
+
+      /* Footer */
+      footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h2>MySite</h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Welcome to My Website</h1>
+      <p>This is a simple website template</p>
+      <button class="btn">Get Started</button>
+    </div>
+
+    <!-- About Section -->
+    <div class="section">
+      <h2>About Us</h2>
+      <p>This is a basic website you can customize and build on.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 My Website | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
